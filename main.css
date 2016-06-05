@@ -93,9 +93,23 @@ a:focus {
   padding-bottom: 20px;
 }
 
+.news-item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .news-meta-item {
   display: inline;
   margin-right: 15px;
+}
+
+/*-----------------------------------------------
+*   Content
+-----------------------------------------------*/
+
+.content {
+  margin-bottom: 40px;
 }
 
 /*-----------------------------------------------
